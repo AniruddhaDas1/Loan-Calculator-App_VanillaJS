@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Loan Calculator App</title>
+  </head>
+  <body>
+    <div>
+      <h1>Loan Calculator (Home, Car, Bike, Personal)</h1>
+      <div>
+        <div>
+          <form action="">
+            <label for="loan">Loan Amount : </label>
+            <input type="number" id="loan"> <br>
+            <label for="period">Period in Months: </label>
+            <input type="number" id="period"> <br>
+            <label for="int">Interest % : </label>
+            <input type="number" id="int"> <br>
+            <button id="submit">Calculate EMI</button>
+          </form>
+        </div>
+        <div>
+          <h2>EMI: Rs. <span id="emi">0</span>/- per Month</h2>
+          <h2>Total Interest: Rs. <span id="totalInt">0</span>/- </h2>
+          <h2>Total Loan Payment: Rs. <span id="totalLoan">0</span>/-</h2>
+        </div>
+
+      </div>
+    </div>
+  
+	  <div>
+      <h5>Developed by Aniruddha | CoderX Community | Build on Vanila Javascript </h5>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
